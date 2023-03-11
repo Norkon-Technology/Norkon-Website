@@ -1,6 +1,6 @@
 {
-  "name": "@vuetify-theme/zero-free",
-  "version": "2.0.1",
+  "name": "norkon",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
