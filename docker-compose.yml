@@ -10,5 +10,4 @@ services:
     volumes:
       - ./nginx:/etc/nginx/conf.d/
       - ./dist:/usr/share/nginx/html
-      - ./certs/live:/etc/letsencrypt
-    command: chmod -R 600 /etc/letsencrypt
+      - /etc/letsencrypt/live/:/etc/letsencrypt
