@@ -2,7 +2,7 @@
   <section id="norkon-hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/light.jpg')"
+      :src="require('@/assets/light.webp')"
       class="white--text"
       gradient="to bottom, rgba(11, 28, 61, .9), rgba(0,0,0,.4)"
     >

@@ -6,7 +6,7 @@
       space="56"
     >
       <base-img
-        :src="require(`@/assets/norkon-logo-sem-fundo-dark.png`)"
+        :src="require(`@/assets/norkon-logo-sem-fundo-dark.svg`)"
         class="mr-3 d-flex justify-content-center align-items-center"
         contain
         max-height="80"

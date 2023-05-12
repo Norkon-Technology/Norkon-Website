@@ -4,7 +4,7 @@
     class="text-center"
   >
     <v-img
-      :src="$vuetify.theme.isDark ? require(`@/assets/norkon-logo-sem-fundo-dark.png`): require(`@/assets/norkon-logo-sem-fundo.png`)"
+      :src="$vuetify.theme.isDark ? require(`@/assets/norkon-logo-sem-fundo-dark.svg`): require(`@/assets/norkon-logo-sem-fundo.svg`)"
       class="mx-auto mb-8"
       max-width="512"
     />

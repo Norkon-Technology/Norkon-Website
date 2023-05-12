@@ -29,6 +29,11 @@ const router = new Router({
           component: () => import('@/views/sobre/Index.vue'),
         },
         {
+          path: 'blog',
+          name: 'Blog',
+          component: () => { window.location.href = 'https://blog.norkontecnology.com' },
+        },
+        {
           path: 'servico',
           name: 'Serviços',
           component: () => import('@/views/servico/Index.vue'),
